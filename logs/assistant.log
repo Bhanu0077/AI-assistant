@@ -12,3 +12,15 @@
 2025-12-24 19:11:06,766 - INFO - EMERGENCY STOP triggered (Ctrl+Alt+X)
 2025-12-24 19:11:06,766 - INFO - Assistant stopping safely
 2025-12-24 19:11:07,270 - INFO - Assistant stopped
+2025-12-24 19:15:03,361 - INFO - IntentParser initialized
+2025-12-24 19:15:03,361 - INFO - Assistant initialized
+2025-12-24 19:15:03,450 - INFO - Emergency hotkey registered: Ctrl+Alt+X
+2025-12-24 19:15:03,450 - INFO - Assistant started (headless mode)
+2025-12-24 19:15:03,450 - INFO - Parsing intent from text: open notepad
+2025-12-24 19:15:03,450 - INFO - Intent parsed: {'action': 'open_app', 'target': 'notepad'}
+2025-12-24 19:15:04,451 - INFO - Parsing intent from text: close chrome
+2025-12-24 19:15:04,451 - INFO - Intent parsed: {'action': 'close_app', 'target': 'chrome'}
+2025-12-24 19:15:05,451 - INFO - Parsing intent from text: stop
+2025-12-24 19:15:05,451 - INFO - Intent parsed: {'action': 'stop_assistant'}
+2025-12-24 19:15:05,451 - INFO - Assistant stopping safely
+2025-12-24 19:15:06,452 - INFO - Assistant stopped
