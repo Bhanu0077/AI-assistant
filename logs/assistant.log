@@ -248,3 +248,115 @@
 2025-12-24 19:36:31,284 - INFO - EMERGENCY STOP triggered (Ctrl+Alt+X)
 2025-12-24 19:36:31,284 - INFO - Assistant stopping safely
 2025-12-24 19:36:31,690 - INFO - Assistant stopped
+2025-12-24 19:54:06,099 - INFO - IntentParser initialized
+2025-12-24 19:54:06,099 - INFO - VoiceListener initialized (enabled=True)
+2025-12-24 19:54:06,099 - INFO - ConfirmationEngine initialized
+2025-12-24 19:54:06,099 - INFO - Permission policies loaded
+2025-12-24 19:54:06,100 - INFO - Assistant initialized
+2025-12-24 19:54:06,204 - INFO - Emergency hotkey registered: Ctrl+Alt+X
+2025-12-24 19:54:06,204 - INFO - Assistant started (headless mode)
+2025-12-24 19:54:06,204 - INFO - Voice input received (simulated): open notepad
+2025-12-24 19:54:06,204 - INFO - Parsing intent from text: open notepad
+2025-12-24 19:54:06,204 - INFO - Intent parsed: {'action': 'open_app', 'target': 'notepad'}
+2025-12-24 19:54:06,204 - INFO - Permission check: action=open_app, decision=allow
+2025-12-24 19:54:06,204 - INFO - Action allowed: open_app
+2025-12-24 19:54:08,204 - INFO - Voice input received (simulated): open notepad
+2025-12-24 19:54:08,204 - INFO - Parsing intent from text: open notepad
+2025-12-24 19:54:08,204 - INFO - Intent parsed: {'action': 'open_app', 'target': 'notepad'}
+2025-12-24 19:54:08,204 - INFO - Permission check: action=open_app, decision=allow
+2025-12-24 19:54:08,204 - INFO - Action allowed: open_app
+2025-12-24 19:54:10,208 - INFO - Voice input received (simulated): open notepad
+2025-12-24 19:54:10,210 - INFO - Parsing intent from text: open notepad
+2025-12-24 19:54:10,212 - INFO - Intent parsed: {'action': 'open_app', 'target': 'notepad'}
+2025-12-24 19:54:10,213 - INFO - Permission check: action=open_app, decision=allow
+2025-12-24 19:54:10,214 - INFO - Action allowed: open_app
+2025-12-24 19:54:12,214 - INFO - Voice input received (simulated): open notepad
+2025-12-24 19:54:12,214 - INFO - Parsing intent from text: open notepad
+2025-12-24 19:54:12,214 - INFO - Intent parsed: {'action': 'open_app', 'target': 'notepad'}
+2025-12-24 19:54:12,214 - INFO - Permission check: action=open_app, decision=allow
+2025-12-24 19:54:12,214 - INFO - Action allowed: open_app
+2025-12-24 19:54:14,214 - INFO - Voice input received (simulated): open notepad
+2025-12-24 19:54:14,215 - INFO - Parsing intent from text: open notepad
+2025-12-24 19:54:14,215 - INFO - Intent parsed: {'action': 'open_app', 'target': 'notepad'}
+2025-12-24 19:54:14,215 - INFO - Permission check: action=open_app, decision=allow
+2025-12-24 19:54:14,215 - INFO - Action allowed: open_app
+2025-12-24 19:54:16,215 - INFO - Voice input received (simulated): open notepad
+2025-12-24 19:54:16,215 - INFO - Parsing intent from text: open notepad
+2025-12-24 19:54:16,215 - INFO - Intent parsed: {'action': 'open_app', 'target': 'notepad'}
+2025-12-24 19:54:16,215 - INFO - Permission check: action=open_app, decision=allow
+2025-12-24 19:54:16,215 - INFO - Action allowed: open_app
+2025-12-24 19:54:18,216 - INFO - Voice input received (simulated): open notepad
+2025-12-24 19:54:18,216 - INFO - Parsing intent from text: open notepad
+2025-12-24 19:54:18,216 - INFO - Intent parsed: {'action': 'open_app', 'target': 'notepad'}
+2025-12-24 19:54:18,217 - INFO - Permission check: action=open_app, decision=allow
+2025-12-24 19:54:18,217 - INFO - Action allowed: open_app
+2025-12-24 19:54:20,217 - INFO - Voice input received (simulated): open notepad
+2025-12-24 19:54:20,217 - INFO - Parsing intent from text: open notepad
+2025-12-24 19:54:20,218 - INFO - Intent parsed: {'action': 'open_app', 'target': 'notepad'}
+2025-12-24 19:54:20,218 - INFO - Permission check: action=open_app, decision=allow
+2025-12-24 19:54:20,218 - INFO - Action allowed: open_app
+2025-12-24 19:54:22,218 - INFO - Voice input received (simulated): open notepad
+2025-12-24 19:54:22,218 - INFO - Parsing intent from text: open notepad
+2025-12-24 19:54:22,218 - INFO - Intent parsed: {'action': 'open_app', 'target': 'notepad'}
+2025-12-24 19:54:22,218 - INFO - Permission check: action=open_app, decision=allow
+2025-12-24 19:54:22,218 - INFO - Action allowed: open_app
+2025-12-24 19:54:24,218 - INFO - Voice input received (simulated): open notepad
+2025-12-24 19:54:24,219 - INFO - Parsing intent from text: open notepad
+2025-12-24 19:54:24,219 - INFO - Intent parsed: {'action': 'open_app', 'target': 'notepad'}
+2025-12-24 19:54:24,219 - INFO - Permission check: action=open_app, decision=allow
+2025-12-24 19:54:24,219 - INFO - Action allowed: open_app
+2025-12-24 19:54:26,219 - INFO - Voice input received (simulated): open notepad
+2025-12-24 19:54:26,219 - INFO - Parsing intent from text: open notepad
+2025-12-24 19:54:26,219 - INFO - Intent parsed: {'action': 'open_app', 'target': 'notepad'}
+2025-12-24 19:54:26,219 - INFO - Permission check: action=open_app, decision=allow
+2025-12-24 19:54:26,219 - INFO - Action allowed: open_app
+2025-12-24 19:54:26,480 - INFO - EMERGENCY STOP triggered (Ctrl+Alt+X)
+2025-12-24 19:54:26,480 - INFO - Assistant stopping safely
+2025-12-24 19:54:28,220 - INFO - Assistant stopped
+2025-12-24 20:10:53,141 - INFO - IntentParser initialized
+2025-12-24 20:39:54,155 - INFO - IntentParser initialized
+2025-12-24 20:39:54,764 - INFO - VoiceListener initialized (enabled=True)
+2025-12-24 20:39:54,764 - INFO - ConfirmationEngine initialized
+2025-12-24 20:39:54,765 - INFO - Permission policies loaded
+2025-12-24 20:39:54,765 - INFO - Assistant initialized
+2025-12-24 20:39:54,872 - INFO - Emergency hotkey registered: Ctrl+Alt+X
+2025-12-24 20:39:54,872 - INFO - Assistant started (headless mode)
+2025-12-24 20:39:54,873 - INFO - Listening for voice input (push-to-talk: hold SPACE)
+2025-12-24 20:40:02,080 - INFO - Voice input received: oh ben not bad
+2025-12-24 20:40:02,587 - INFO - Parsing intent from text: oh ben not bad
+2025-12-24 20:40:02,587 - INFO - Intent parsed: {'action': 'unknown', 'raw_text': 'oh ben not bad'}
+2025-12-24 20:40:02,588 - INFO - Permission check: action=unknown, decision=deny
+2025-12-24 20:40:02,588 - INFO - Action denied: unknown
+2025-12-24 20:40:03,588 - INFO - Listening for voice input (push-to-talk: hold SPACE)
+2025-12-24 20:40:24,291 - INFO - Voice input received: oh ben not bad
+2025-12-24 20:40:24,806 - INFO - Parsing intent from text: oh ben not bad
+2025-12-24 20:40:24,807 - INFO - Intent parsed: {'action': 'unknown', 'raw_text': 'oh ben not bad'}
+2025-12-24 20:40:24,807 - INFO - Permission check: action=unknown, decision=deny
+2025-12-24 20:40:24,807 - INFO - Action denied: unknown
+2025-12-24 20:40:25,807 - INFO - Listening for voice input (push-to-talk: hold SPACE)
+2025-12-24 20:40:29,764 - INFO - EMERGENCY STOP triggered (Ctrl+Alt+X)
+2025-12-24 20:40:29,764 - INFO - Assistant stopping safely
+2025-12-24 20:40:39,442 - INFO - Voice input received: oh ben not bad
+2025-12-24 20:40:39,960 - INFO - Parsing intent from text: oh ben not bad
+2025-12-24 20:40:39,960 - INFO - Intent parsed: {'action': 'unknown', 'raw_text': 'oh ben not bad'}
+2025-12-24 20:40:39,960 - INFO - Permission check: action=unknown, decision=deny
+2025-12-24 20:40:39,960 - INFO - Action denied: unknown
+2025-12-24 20:40:40,961 - INFO - Assistant stopped
+2025-12-24 20:40:52,642 - INFO - IntentParser initialized
+2025-12-24 20:40:53,220 - INFO - VoiceListener initialized (enabled=True)
+2025-12-24 20:40:53,220 - INFO - ConfirmationEngine initialized
+2025-12-24 20:40:53,221 - INFO - Permission policies loaded
+2025-12-24 20:40:53,221 - INFO - Assistant initialized
+2025-12-24 20:40:53,320 - INFO - Emergency hotkey registered: Ctrl+Alt+X
+2025-12-24 20:40:53,320 - INFO - Assistant started (headless mode)
+2025-12-24 20:40:53,320 - INFO - Listening for voice input (push-to-talk: hold SPACE)
+2025-12-24 20:41:01,512 - INFO - Voice input received: oh ben not bad
+2025-12-24 20:41:01,985 - INFO - Parsing intent from text: oh ben not bad
+2025-12-24 20:41:01,986 - INFO - Intent parsed: {'action': 'unknown', 'raw_text': 'oh ben not bad'}
+2025-12-24 20:41:01,986 - INFO - Permission check: action=unknown, decision=deny
+2025-12-24 20:41:01,986 - INFO - Action denied: unknown
+2025-12-24 20:41:02,986 - INFO - Listening for voice input (push-to-talk: hold SPACE)
+2025-12-24 20:41:05,620 - INFO - EMERGENCY STOP triggered (Ctrl+Alt+X)
+2025-12-24 20:41:05,620 - INFO - Assistant stopping safely
+2025-12-24 20:41:11,345 - INFO - EMERGENCY STOP triggered (Ctrl+Alt+X)
+2025-12-24 20:41:11,345 - INFO - Assistant stopping safely
