@@ -1,2 +1,14 @@
 2025-12-22 20:38:47,978 - INFO - Assistant initialized
 2025-12-22 20:38:47,979 - INFO - Assistant started (headless mode)
+2025-12-24 19:10:18,875 - INFO - Assistant initialized
+2025-12-24 19:10:18,979 - INFO - Emergency hotkey registered: Ctrl+Alt+X
+2025-12-24 19:10:18,979 - INFO - Assistant started (headless mode)
+2025-12-24 19:10:28,620 - INFO - EMERGENCY STOP triggered (Ctrl+Alt+X)
+2025-12-24 19:10:28,620 - INFO - Assistant stopping safely
+2025-12-24 19:10:28,984 - INFO - Assistant stopped
+2025-12-24 19:10:58,144 - INFO - Assistant initialized
+2025-12-24 19:10:58,256 - INFO - Emergency hotkey registered: Ctrl+Alt+X
+2025-12-24 19:10:58,264 - INFO - Assistant started (headless mode)
+2025-12-24 19:11:06,766 - INFO - EMERGENCY STOP triggered (Ctrl+Alt+X)
+2025-12-24 19:11:06,766 - INFO - Assistant stopping safely
+2025-12-24 19:11:07,270 - INFO - Assistant stopped
