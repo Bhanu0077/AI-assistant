@@ -1,0 +1,14 @@
+{
+    "modes": {
+        "voice": true,
+        "gesture": false
+    },
+    "actions": {
+        "open_app": "allow",
+        "close_app": "allow",
+        "stop_assistant": "allow",
+        "delete_file": "confirm_twice",
+        "uninstall_app": "confirm_twice",
+        "shutdown_system": "deny"
+    }
+}

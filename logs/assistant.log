@@ -24,3 +24,29 @@
 2025-12-24 19:15:05,451 - INFO - Intent parsed: {'action': 'stop_assistant'}
 2025-12-24 19:15:05,451 - INFO - Assistant stopping safely
 2025-12-24 19:15:06,452 - INFO - Assistant stopped
+2025-12-24 19:17:27,972 - INFO - IntentParser initialized
+2025-12-24 19:20:48,248 - INFO - IntentParser initialized
+2025-12-24 19:24:03,992 - INFO - IntentParser initialized
+2025-12-24 19:25:31,695 - INFO - IntentParser initialized
+2025-12-24 19:25:31,703 - INFO - Permission policies loaded
+2025-12-24 19:25:31,703 - INFO - Assistant initialized
+2025-12-24 19:25:31,799 - INFO - Emergency hotkey registered: Ctrl+Alt+X
+2025-12-24 19:25:31,799 - INFO - Assistant started (headless mode)
+2025-12-24 19:25:31,799 - INFO - Parsing intent from text: open notepad
+2025-12-24 19:25:31,799 - INFO - Intent parsed: {'action': 'open_app', 'target': 'notepad'}
+2025-12-24 19:25:31,799 - INFO - Permission check: action=open_app, decision=allow
+2025-12-24 19:25:31,799 - INFO - Action allowed: open_app
+2025-12-24 19:25:32,799 - INFO - Parsing intent from text: delete file
+2025-12-24 19:25:32,799 - INFO - Intent parsed: {'action': 'unknown', 'raw_text': 'delete file'}
+2025-12-24 19:25:32,800 - INFO - Permission check: action=unknown, decision=deny
+2025-12-24 19:25:32,800 - INFO - Action denied: unknown
+2025-12-24 19:25:33,800 - INFO - Parsing intent from text: shutdown system
+2025-12-24 19:25:33,800 - INFO - Intent parsed: {'action': 'unknown', 'raw_text': 'shutdown system'}
+2025-12-24 19:25:33,801 - INFO - Permission check: action=unknown, decision=deny
+2025-12-24 19:25:33,801 - INFO - Action denied: unknown
+2025-12-24 19:25:34,801 - INFO - Parsing intent from text: stop
+2025-12-24 19:25:34,801 - INFO - Intent parsed: {'action': 'stop_assistant'}
+2025-12-24 19:25:34,801 - INFO - Permission check: action=stop_assistant, decision=allow
+2025-12-24 19:25:34,801 - INFO - Action allowed: stop_assistant
+2025-12-24 19:25:34,801 - INFO - Assistant stopping safely
+2025-12-24 19:25:35,802 - INFO - Assistant stopped

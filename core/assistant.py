@@ -2,11 +2,17 @@ import time
 from utils.logger import log_info
 from utils.hotkeys import register_emergency_hotkey
 from core.intent_parser import IntentParser
+from security.permission_engine import PermissionEngine
 
 class Assistant:
     def __init__(self):
         self.running = True
         self.intent_parser = IntentParser()
+
+        self.permission_engine = PermissionEngine(
+            "config/default_policy.json",
+            "config/user_policy.json"
+        )
 
         log_info("Assistant initialized")
         register_emergency_hotkey(self.stop)
@@ -19,17 +25,31 @@ class Assistant:
         intent = self.intent_parser.parse(text)
         log_info(f"Intent parsed: {intent}")
 
-        # TEMPORARY handling (no execution yet)
-        if intent["action"] == "stop_assistant":
-            self.stop()
+        action = intent.get("action")
+        decision = self.permission_engine.check(action)
+
+        if decision == "deny":
+            log_info(f"Action denied: {action}")
+            return
+
+        if decision == "confirm_twice":
+            log_info(f"Action requires double confirmation: {action}")
+            return  # confirmation logic comes later
+
+        if decision == "allow":
+            log_info(f"Action allowed: {action}")
+
+            # TEMP handling only
+            if action == "stop_assistant":
+                self.stop()
 
     def run(self):
         log_info("Assistant started (headless mode)")
 
-        # TEMP input simulation (remove later)
         test_commands = [
             "open notepad",
-            "close chrome",
+            "delete file",
+            "shutdown system",
             "stop"
         ]
 
