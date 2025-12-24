@@ -50,3 +50,201 @@
 2025-12-24 19:25:34,801 - INFO - Action allowed: stop_assistant
 2025-12-24 19:25:34,801 - INFO - Assistant stopping safely
 2025-12-24 19:25:35,802 - INFO - Assistant stopped
+2025-12-24 19:35:13,375 - INFO - IntentParser initialized
+2025-12-24 19:35:13,375 - INFO - VoiceListener initialized (enabled=True)
+2025-12-24 19:35:13,375 - INFO - Permission policies loaded
+2025-12-24 19:35:13,375 - INFO - Assistant initialized
+2025-12-24 19:35:13,466 - INFO - Emergency hotkey registered: Ctrl+Alt+X
+2025-12-24 19:35:13,466 - INFO - Assistant started (headless mode)
+2025-12-24 19:35:13,466 - INFO - Voice input received (simulated): open notepad
+2025-12-24 19:35:13,466 - INFO - Parsing intent from text: open notepad
+2025-12-24 19:35:13,466 - INFO - Intent parsed: {'action': 'open_app', 'target': 'notepad'}
+2025-12-24 19:35:13,466 - INFO - Permission check: action=open_app, decision=allow
+2025-12-24 19:35:13,466 - INFO - Action allowed: open_app
+2025-12-24 19:35:15,466 - INFO - Voice input received (simulated): open notepad
+2025-12-24 19:35:15,466 - INFO - Parsing intent from text: open notepad
+2025-12-24 19:35:15,466 - INFO - Intent parsed: {'action': 'open_app', 'target': 'notepad'}
+2025-12-24 19:35:15,466 - INFO - Permission check: action=open_app, decision=allow
+2025-12-24 19:35:15,466 - INFO - Action allowed: open_app
+2025-12-24 19:35:17,467 - INFO - Voice input received (simulated): open notepad
+2025-12-24 19:35:17,467 - INFO - Parsing intent from text: open notepad
+2025-12-24 19:35:17,468 - INFO - Intent parsed: {'action': 'open_app', 'target': 'notepad'}
+2025-12-24 19:35:17,468 - INFO - Permission check: action=open_app, decision=allow
+2025-12-24 19:35:17,468 - INFO - Action allowed: open_app
+2025-12-24 19:35:19,468 - INFO - Voice input received (simulated): open notepad
+2025-12-24 19:35:19,468 - INFO - Parsing intent from text: open notepad
+2025-12-24 19:35:19,468 - INFO - Intent parsed: {'action': 'open_app', 'target': 'notepad'}
+2025-12-24 19:35:19,468 - INFO - Permission check: action=open_app, decision=allow
+2025-12-24 19:35:19,468 - INFO - Action allowed: open_app
+2025-12-24 19:35:21,469 - INFO - Voice input received (simulated): open notepad
+2025-12-24 19:35:21,469 - INFO - Parsing intent from text: open notepad
+2025-12-24 19:35:21,469 - INFO - Intent parsed: {'action': 'open_app', 'target': 'notepad'}
+2025-12-24 19:35:21,469 - INFO - Permission check: action=open_app, decision=allow
+2025-12-24 19:35:21,470 - INFO - Action allowed: open_app
+2025-12-24 19:35:23,470 - INFO - Voice input received (simulated): open notepad
+2025-12-24 19:35:23,471 - INFO - Parsing intent from text: open notepad
+2025-12-24 19:35:23,471 - INFO - Intent parsed: {'action': 'open_app', 'target': 'notepad'}
+2025-12-24 19:35:23,471 - INFO - Permission check: action=open_app, decision=allow
+2025-12-24 19:35:23,471 - INFO - Action allowed: open_app
+2025-12-24 19:35:25,472 - INFO - Voice input received (simulated): open notepad
+2025-12-24 19:35:25,472 - INFO - Parsing intent from text: open notepad
+2025-12-24 19:35:25,472 - INFO - Intent parsed: {'action': 'open_app', 'target': 'notepad'}
+2025-12-24 19:35:25,473 - INFO - Permission check: action=open_app, decision=allow
+2025-12-24 19:35:25,473 - INFO - Action allowed: open_app
+2025-12-24 19:35:27,473 - INFO - Voice input received (simulated): open notepad
+2025-12-24 19:35:27,473 - INFO - Parsing intent from text: open notepad
+2025-12-24 19:35:27,473 - INFO - Intent parsed: {'action': 'open_app', 'target': 'notepad'}
+2025-12-24 19:35:27,474 - INFO - Permission check: action=open_app, decision=allow
+2025-12-24 19:35:27,474 - INFO - Action allowed: open_app
+2025-12-24 19:35:29,474 - INFO - Voice input received (simulated): open notepad
+2025-12-24 19:35:29,474 - INFO - Parsing intent from text: open notepad
+2025-12-24 19:35:29,474 - INFO - Intent parsed: {'action': 'open_app', 'target': 'notepad'}
+2025-12-24 19:35:29,475 - INFO - Permission check: action=open_app, decision=allow
+2025-12-24 19:35:29,475 - INFO - Action allowed: open_app
+2025-12-24 19:35:31,475 - INFO - Voice input received (simulated): open notepad
+2025-12-24 19:35:31,475 - INFO - Parsing intent from text: open notepad
+2025-12-24 19:35:31,475 - INFO - Intent parsed: {'action': 'open_app', 'target': 'notepad'}
+2025-12-24 19:35:31,475 - INFO - Permission check: action=open_app, decision=allow
+2025-12-24 19:35:31,475 - INFO - Action allowed: open_app
+2025-12-24 19:35:33,475 - INFO - Voice input received (simulated): open notepad
+2025-12-24 19:35:33,476 - INFO - Parsing intent from text: open notepad
+2025-12-24 19:35:33,476 - INFO - Intent parsed: {'action': 'open_app', 'target': 'notepad'}
+2025-12-24 19:35:33,476 - INFO - Permission check: action=open_app, decision=allow
+2025-12-24 19:35:33,476 - INFO - Action allowed: open_app
+2025-12-24 19:35:35,477 - INFO - Voice input received (simulated): open notepad
+2025-12-24 19:35:35,477 - INFO - Parsing intent from text: open notepad
+2025-12-24 19:35:35,477 - INFO - Intent parsed: {'action': 'open_app', 'target': 'notepad'}
+2025-12-24 19:35:35,477 - INFO - Permission check: action=open_app, decision=allow
+2025-12-24 19:35:35,477 - INFO - Action allowed: open_app
+2025-12-24 19:35:37,477 - INFO - Voice input received (simulated): open notepad
+2025-12-24 19:35:37,477 - INFO - Parsing intent from text: open notepad
+2025-12-24 19:35:37,477 - INFO - Intent parsed: {'action': 'open_app', 'target': 'notepad'}
+2025-12-24 19:35:37,477 - INFO - Permission check: action=open_app, decision=allow
+2025-12-24 19:35:37,477 - INFO - Action allowed: open_app
+2025-12-24 19:35:39,478 - INFO - Voice input received (simulated): open notepad
+2025-12-24 19:35:39,478 - INFO - Parsing intent from text: open notepad
+2025-12-24 19:35:39,478 - INFO - Intent parsed: {'action': 'open_app', 'target': 'notepad'}
+2025-12-24 19:35:39,478 - INFO - Permission check: action=open_app, decision=allow
+2025-12-24 19:35:39,478 - INFO - Action allowed: open_app
+2025-12-24 19:35:41,478 - INFO - Voice input received (simulated): open notepad
+2025-12-24 19:35:41,478 - INFO - Parsing intent from text: open notepad
+2025-12-24 19:35:41,478 - INFO - Intent parsed: {'action': 'open_app', 'target': 'notepad'}
+2025-12-24 19:35:41,479 - INFO - Permission check: action=open_app, decision=allow
+2025-12-24 19:35:41,479 - INFO - Action allowed: open_app
+2025-12-24 19:35:43,479 - INFO - Voice input received (simulated): open notepad
+2025-12-24 19:35:43,479 - INFO - Parsing intent from text: open notepad
+2025-12-24 19:35:43,479 - INFO - Intent parsed: {'action': 'open_app', 'target': 'notepad'}
+2025-12-24 19:35:43,479 - INFO - Permission check: action=open_app, decision=allow
+2025-12-24 19:35:43,479 - INFO - Action allowed: open_app
+2025-12-24 19:35:45,479 - INFO - Voice input received (simulated): open notepad
+2025-12-24 19:35:45,480 - INFO - Parsing intent from text: open notepad
+2025-12-24 19:35:45,480 - INFO - Intent parsed: {'action': 'open_app', 'target': 'notepad'}
+2025-12-24 19:35:45,480 - INFO - Permission check: action=open_app, decision=allow
+2025-12-24 19:35:45,480 - INFO - Action allowed: open_app
+2025-12-24 19:35:47,480 - INFO - Voice input received (simulated): open notepad
+2025-12-24 19:35:47,480 - INFO - Parsing intent from text: open notepad
+2025-12-24 19:35:47,480 - INFO - Intent parsed: {'action': 'open_app', 'target': 'notepad'}
+2025-12-24 19:35:47,480 - INFO - Permission check: action=open_app, decision=allow
+2025-12-24 19:35:47,480 - INFO - Action allowed: open_app
+2025-12-24 19:35:49,480 - INFO - Voice input received (simulated): open notepad
+2025-12-24 19:35:49,480 - INFO - Parsing intent from text: open notepad
+2025-12-24 19:35:49,480 - INFO - Intent parsed: {'action': 'open_app', 'target': 'notepad'}
+2025-12-24 19:35:49,481 - INFO - Permission check: action=open_app, decision=allow
+2025-12-24 19:35:49,481 - INFO - Action allowed: open_app
+2025-12-24 19:35:51,481 - INFO - Voice input received (simulated): open notepad
+2025-12-24 19:35:51,481 - INFO - Parsing intent from text: open notepad
+2025-12-24 19:35:51,481 - INFO - Intent parsed: {'action': 'open_app', 'target': 'notepad'}
+2025-12-24 19:35:51,481 - INFO - Permission check: action=open_app, decision=allow
+2025-12-24 19:35:51,481 - INFO - Action allowed: open_app
+2025-12-24 19:35:53,481 - INFO - Voice input received (simulated): open notepad
+2025-12-24 19:35:53,481 - INFO - Parsing intent from text: open notepad
+2025-12-24 19:35:53,481 - INFO - Intent parsed: {'action': 'open_app', 'target': 'notepad'}
+2025-12-24 19:35:53,481 - INFO - Permission check: action=open_app, decision=allow
+2025-12-24 19:35:53,481 - INFO - Action allowed: open_app
+2025-12-24 19:35:55,481 - INFO - Voice input received (simulated): open notepad
+2025-12-24 19:35:55,481 - INFO - Parsing intent from text: open notepad
+2025-12-24 19:35:55,481 - INFO - Intent parsed: {'action': 'open_app', 'target': 'notepad'}
+2025-12-24 19:35:55,482 - INFO - Permission check: action=open_app, decision=allow
+2025-12-24 19:35:55,482 - INFO - Action allowed: open_app
+2025-12-24 19:35:57,482 - INFO - Voice input received (simulated): open notepad
+2025-12-24 19:35:57,482 - INFO - Parsing intent from text: open notepad
+2025-12-24 19:35:57,482 - INFO - Intent parsed: {'action': 'open_app', 'target': 'notepad'}
+2025-12-24 19:35:57,482 - INFO - Permission check: action=open_app, decision=allow
+2025-12-24 19:35:57,482 - INFO - Action allowed: open_app
+2025-12-24 19:35:59,482 - INFO - Voice input received (simulated): open notepad
+2025-12-24 19:35:59,482 - INFO - Parsing intent from text: open notepad
+2025-12-24 19:35:59,482 - INFO - Intent parsed: {'action': 'open_app', 'target': 'notepad'}
+2025-12-24 19:35:59,482 - INFO - Permission check: action=open_app, decision=allow
+2025-12-24 19:35:59,482 - INFO - Action allowed: open_app
+2025-12-24 19:36:01,483 - INFO - Voice input received (simulated): open notepad
+2025-12-24 19:36:01,483 - INFO - Parsing intent from text: open notepad
+2025-12-24 19:36:01,483 - INFO - Intent parsed: {'action': 'open_app', 'target': 'notepad'}
+2025-12-24 19:36:01,483 - INFO - Permission check: action=open_app, decision=allow
+2025-12-24 19:36:01,483 - INFO - Action allowed: open_app
+2025-12-24 19:36:02,323 - INFO - EMERGENCY STOP triggered (Ctrl+Alt+X)
+2025-12-24 19:36:02,324 - INFO - Assistant stopping safely
+2025-12-24 19:36:03,484 - INFO - Assistant stopped
+2025-12-24 19:36:09,369 - INFO - IntentParser initialized
+2025-12-24 19:36:09,369 - INFO - VoiceListener initialized (enabled=True)
+2025-12-24 19:36:09,371 - INFO - Permission policies loaded
+2025-12-24 19:36:09,372 - INFO - Assistant initialized
+2025-12-24 19:36:09,678 - INFO - Emergency hotkey registered: Ctrl+Alt+X
+2025-12-24 19:36:09,678 - INFO - Assistant started (headless mode)
+2025-12-24 19:36:09,678 - INFO - Voice input received (simulated): open notepad
+2025-12-24 19:36:09,678 - INFO - Parsing intent from text: open notepad
+2025-12-24 19:36:09,678 - INFO - Intent parsed: {'action': 'open_app', 'target': 'notepad'}
+2025-12-24 19:36:09,678 - INFO - Permission check: action=open_app, decision=allow
+2025-12-24 19:36:09,679 - INFO - Action allowed: open_app
+2025-12-24 19:36:11,679 - INFO - Voice input received (simulated): open notepad
+2025-12-24 19:36:11,679 - INFO - Parsing intent from text: open notepad
+2025-12-24 19:36:11,679 - INFO - Intent parsed: {'action': 'open_app', 'target': 'notepad'}
+2025-12-24 19:36:11,679 - INFO - Permission check: action=open_app, decision=allow
+2025-12-24 19:36:11,680 - INFO - Action allowed: open_app
+2025-12-24 19:36:13,680 - INFO - Voice input received (simulated): open notepad
+2025-12-24 19:36:13,680 - INFO - Parsing intent from text: open notepad
+2025-12-24 19:36:13,681 - INFO - Intent parsed: {'action': 'open_app', 'target': 'notepad'}
+2025-12-24 19:36:13,681 - INFO - Permission check: action=open_app, decision=allow
+2025-12-24 19:36:13,681 - INFO - Action allowed: open_app
+2025-12-24 19:36:15,681 - INFO - Voice input received (simulated): open notepad
+2025-12-24 19:36:15,682 - INFO - Parsing intent from text: open notepad
+2025-12-24 19:36:15,682 - INFO - Intent parsed: {'action': 'open_app', 'target': 'notepad'}
+2025-12-24 19:36:15,682 - INFO - Permission check: action=open_app, decision=allow
+2025-12-24 19:36:15,682 - INFO - Action allowed: open_app
+2025-12-24 19:36:17,682 - INFO - Voice input received (simulated): open notepad
+2025-12-24 19:36:17,683 - INFO - Parsing intent from text: open notepad
+2025-12-24 19:36:17,683 - INFO - Intent parsed: {'action': 'open_app', 'target': 'notepad'}
+2025-12-24 19:36:17,683 - INFO - Permission check: action=open_app, decision=allow
+2025-12-24 19:36:17,683 - INFO - Action allowed: open_app
+2025-12-24 19:36:19,683 - INFO - Voice input received (simulated): open notepad
+2025-12-24 19:36:19,683 - INFO - Parsing intent from text: open notepad
+2025-12-24 19:36:19,684 - INFO - Intent parsed: {'action': 'open_app', 'target': 'notepad'}
+2025-12-24 19:36:19,684 - INFO - Permission check: action=open_app, decision=allow
+2025-12-24 19:36:19,684 - INFO - Action allowed: open_app
+2025-12-24 19:36:21,684 - INFO - Voice input received (simulated): open notepad
+2025-12-24 19:36:21,685 - INFO - Parsing intent from text: open notepad
+2025-12-24 19:36:21,685 - INFO - Intent parsed: {'action': 'open_app', 'target': 'notepad'}
+2025-12-24 19:36:21,685 - INFO - Permission check: action=open_app, decision=allow
+2025-12-24 19:36:21,685 - INFO - Action allowed: open_app
+2025-12-24 19:36:23,686 - INFO - Voice input received (simulated): open notepad
+2025-12-24 19:36:23,686 - INFO - Parsing intent from text: open notepad
+2025-12-24 19:36:23,686 - INFO - Intent parsed: {'action': 'open_app', 'target': 'notepad'}
+2025-12-24 19:36:23,687 - INFO - Permission check: action=open_app, decision=allow
+2025-12-24 19:36:23,687 - INFO - Action allowed: open_app
+2025-12-24 19:36:25,687 - INFO - Voice input received (simulated): open notepad
+2025-12-24 19:36:25,687 - INFO - Parsing intent from text: open notepad
+2025-12-24 19:36:25,687 - INFO - Intent parsed: {'action': 'open_app', 'target': 'notepad'}
+2025-12-24 19:36:25,687 - INFO - Permission check: action=open_app, decision=allow
+2025-12-24 19:36:25,687 - INFO - Action allowed: open_app
+2025-12-24 19:36:27,687 - INFO - Voice input received (simulated): open notepad
+2025-12-24 19:36:27,688 - INFO - Parsing intent from text: open notepad
+2025-12-24 19:36:27,688 - INFO - Intent parsed: {'action': 'open_app', 'target': 'notepad'}
+2025-12-24 19:36:27,688 - INFO - Permission check: action=open_app, decision=allow
+2025-12-24 19:36:27,689 - INFO - Action allowed: open_app
+2025-12-24 19:36:29,689 - INFO - Voice input received (simulated): open notepad
+2025-12-24 19:36:29,689 - INFO - Parsing intent from text: open notepad
+2025-12-24 19:36:29,690 - INFO - Intent parsed: {'action': 'open_app', 'target': 'notepad'}
+2025-12-24 19:36:29,690 - INFO - Permission check: action=open_app, decision=allow
+2025-12-24 19:36:29,690 - INFO - Action allowed: open_app
+2025-12-24 19:36:31,284 - INFO - EMERGENCY STOP triggered (Ctrl+Alt+X)
+2025-12-24 19:36:31,284 - INFO - Assistant stopping safely
+2025-12-24 19:36:31,690 - INFO - Assistant stopped
