@@ -29,24 +29,35 @@ class VoiceListener:
             log_info(f"Audio status: {status}")
         self.q.put(bytes(indata))
 
-    def listen(self) -> str | None:
+    import queue
+
+    def listen(self, should_run_callable) -> str | None:
         if not self.enabled:
             return None
 
         log_info("Listening for voice input (push-to-talk: hold SPACE)")
 
-        with sd.RawInputStream(
-            samplerate=16000,
-            blocksize=8000,
-            dtype="int16",
-            channels=1,
-            callback=self._audio_callback
-        ):
-            while True:
-                data = self.q.get()
-                if self.recognizer.AcceptWaveform(data):
-                    result = json.loads(self.recognizer.Result())
-                    text = result.get("text", "").strip()
-                    if text:
-                        log_info(f"Voice input received: {text}")
-                        return text
+        try:
+            with sd.RawInputStream(
+                samplerate=16000,
+                blocksize=8000,
+                dtype="int16",
+                channels=1,
+                callback=self._audio_callback
+            ):
+                while should_run_callable():
+                    try:
+                        data = self.q.get(timeout=0.5)  # NON-BLOCKING WAIT
+                    except queue.Empty:
+                        continue
+
+                    if self.recognizer.AcceptWaveform(data):
+                        result = json.loads(self.recognizer.Result())
+                        text = result.get("text", "").strip()
+                        if text:
+                            log_info(f"Voice input received: {text}")
+                            return text
+        except KeyboardInterrupt:
+            log_info("Voice listening interrupted safely")
+
+        return None

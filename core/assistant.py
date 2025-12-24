@@ -4,14 +4,14 @@ from utils.hotkeys import register_emergency_hotkey
 from core.intent_parser import IntentParser
 from security.permission_engine import PermissionEngine
 from security.confirmation import ConfirmationEngine
-from input.voice_listener import VoiceListener
+from input.voice_listener_whisper import WhisperVoiceListener
 
 
 class Assistant:
     def __init__(self):
         self.running = True
         self.intent_parser = IntentParser()
-        self.voice_listener = VoiceListener(enabled=True)
+        self.voice_listener = WhisperVoiceListener(enabled=True)
         self.confirmation_engine = ConfirmationEngine()
 
         self.permission_engine = PermissionEngine(

@@ -360,3 +360,115 @@
 2025-12-24 20:41:05,620 - INFO - Assistant stopping safely
 2025-12-24 20:41:11,345 - INFO - EMERGENCY STOP triggered (Ctrl+Alt+X)
 2025-12-24 20:41:11,345 - INFO - Assistant stopping safely
+2025-12-24 20:42:28,409 - INFO - IntentParser initialized
+2025-12-24 20:42:29,052 - INFO - VoiceListener initialized (enabled=True)
+2025-12-24 20:42:29,053 - INFO - ConfirmationEngine initialized
+2025-12-24 20:42:29,053 - INFO - Permission policies loaded
+2025-12-24 20:42:29,053 - INFO - Assistant initialized
+2025-12-24 20:42:29,153 - INFO - Emergency hotkey registered: Ctrl+Alt+X
+2025-12-24 20:42:29,153 - INFO - Assistant started (headless mode)
+2025-12-24 20:42:29,153 - INFO - Listening for voice input (push-to-talk: hold SPACE)
+2025-12-24 20:42:37,316 - INFO - Voice input received: oh been not bad
+2025-12-24 20:42:37,820 - INFO - Parsing intent from text: oh been not bad
+2025-12-24 20:42:37,820 - INFO - Intent parsed: {'action': 'unknown', 'raw_text': 'oh been not bad'}
+2025-12-24 20:42:37,820 - INFO - Permission check: action=unknown, decision=deny
+2025-12-24 20:42:37,820 - INFO - Action denied: unknown
+2025-12-24 20:42:38,820 - INFO - Listening for voice input (push-to-talk: hold SPACE)
+2025-12-24 20:42:48,324 - INFO - EMERGENCY STOP triggered (Ctrl+Alt+X)
+2025-12-24 20:42:48,324 - INFO - Assistant stopping safely
+2025-12-24 20:42:52,597 - INFO - EMERGENCY STOP triggered (Ctrl+Alt+X)
+2025-12-24 20:42:52,597 - INFO - Assistant stopping safely
+2025-12-24 20:47:00,565 - INFO - IntentParser initialized
+2025-12-24 20:47:01,277 - INFO - VoiceListener initialized (enabled=True)
+2025-12-24 20:47:01,277 - INFO - ConfirmationEngine initialized
+2025-12-24 20:47:01,277 - INFO - Permission policies loaded
+2025-12-24 20:47:01,278 - INFO - Assistant initialized
+2025-12-24 20:47:01,378 - INFO - Emergency hotkey registered: Ctrl+Alt+X
+2025-12-24 20:47:01,378 - INFO - Assistant started (headless mode)
+2025-12-24 20:48:49,450 - INFO - IntentParser initialized
+2025-12-24 20:48:50,182 - INFO - VoiceListener initialized (enabled=True)
+2025-12-24 20:48:50,182 - INFO - ConfirmationEngine initialized
+2025-12-24 20:48:50,182 - INFO - Permission policies loaded
+2025-12-24 20:48:50,183 - INFO - Assistant initialized
+2025-12-24 20:48:50,303 - INFO - Emergency hotkey registered: Ctrl+Alt+X
+2025-12-24 20:48:50,303 - INFO - Assistant started (headless mode)
+2025-12-24 20:48:50,303 - INFO - Listening for voice input (push-to-talk: hold SPACE)
+2025-12-24 20:48:54,502 - INFO - Voice input received: open not bad
+2025-12-24 20:48:55,020 - INFO - Parsing intent from text: open not bad
+2025-12-24 20:48:55,020 - INFO - Intent parsed: {'action': 'open_app', 'target': 'not bad'}
+2025-12-24 20:48:55,020 - INFO - Permission check: action=open_app, decision=allow
+2025-12-24 20:48:55,020 - INFO - Action allowed: open_app
+2025-12-24 20:48:56,021 - INFO - Listening for voice input (push-to-talk: hold SPACE)
+2025-12-24 20:49:04,848 - INFO - EMERGENCY STOP triggered (Ctrl+Alt+X)
+2025-12-24 20:49:04,848 - INFO - Assistant stopping safely
+2025-12-24 20:49:05,724 - INFO - Assistant stopped
+2025-12-24 20:49:21,972 - INFO - IntentParser initialized
+2025-12-24 20:49:22,629 - INFO - VoiceListener initialized (enabled=True)
+2025-12-24 20:49:22,629 - INFO - ConfirmationEngine initialized
+2025-12-24 20:49:22,630 - INFO - Permission policies loaded
+2025-12-24 20:49:22,630 - INFO - Assistant initialized
+2025-12-24 20:49:22,731 - INFO - Emergency hotkey registered: Ctrl+Alt+X
+2025-12-24 20:49:22,731 - INFO - Assistant started (headless mode)
+2025-12-24 20:49:22,731 - INFO - Listening for voice input (push-to-talk: hold SPACE)
+2025-12-24 20:49:32,932 - INFO - Voice input received: oh opening chrome
+2025-12-24 20:49:33,404 - INFO - Parsing intent from text: oh opening chrome
+2025-12-24 20:49:33,404 - INFO - Intent parsed: {'action': 'unknown', 'raw_text': 'oh opening chrome'}
+2025-12-24 20:49:33,404 - INFO - Permission check: action=unknown, decision=deny
+2025-12-24 20:49:33,404 - INFO - Action denied: unknown
+2025-12-24 20:49:34,404 - INFO - Listening for voice input (push-to-talk: hold SPACE)
+2025-12-24 20:49:36,907 - INFO - EMERGENCY STOP triggered (Ctrl+Alt+X)
+2025-12-24 20:49:36,907 - INFO - Assistant stopping safely
+2025-12-24 20:49:37,603 - INFO - Assistant stopped
+2025-12-24 20:49:55,289 - INFO - IntentParser initialized
+2025-12-24 20:49:56,039 - INFO - VoiceListener initialized (enabled=True)
+2025-12-24 20:49:56,039 - INFO - ConfirmationEngine initialized
+2025-12-24 20:49:56,040 - INFO - Permission policies loaded
+2025-12-24 20:49:56,040 - INFO - Assistant initialized
+2025-12-24 20:49:56,142 - INFO - Emergency hotkey registered: Ctrl+Alt+X
+2025-12-24 20:49:56,142 - INFO - Assistant started (headless mode)
+2025-12-24 20:49:56,142 - INFO - Listening for voice input (push-to-talk: hold SPACE)
+2025-12-24 20:50:02,796 - INFO - Voice input received: old man and not bad
+2025-12-24 20:50:03,317 - INFO - Parsing intent from text: old man and not bad
+2025-12-24 20:50:03,317 - INFO - Intent parsed: {'action': 'unknown', 'raw_text': 'old man and not bad'}
+2025-12-24 20:50:03,317 - INFO - Permission check: action=unknown, decision=deny
+2025-12-24 20:50:03,317 - INFO - Action denied: unknown
+2025-12-24 20:50:04,318 - INFO - Listening for voice input (push-to-talk: hold SPACE)
+2025-12-24 20:50:04,346 - INFO - EMERGENCY STOP triggered (Ctrl+Alt+X)
+2025-12-24 20:50:04,346 - INFO - Assistant stopping safely
+2025-12-24 20:50:04,967 - INFO - Assistant stopped
+2025-12-24 20:52:12,320 - INFO - IntentParser initialized
+2025-12-24 20:52:12,938 - INFO - VoiceListener initialized (enabled=True)
+2025-12-24 20:52:12,938 - INFO - ConfirmationEngine initialized
+2025-12-24 20:52:12,938 - INFO - Permission policies loaded
+2025-12-24 20:52:12,938 - INFO - Assistant initialized
+2025-12-24 20:52:13,043 - INFO - Emergency hotkey registered: Ctrl+Alt+X
+2025-12-24 20:52:13,043 - INFO - Assistant started (headless mode)
+2025-12-24 20:52:13,043 - INFO - Listening for voice input (push-to-talk: hold SPACE)
+2025-12-24 20:52:17,517 - INFO - EMERGENCY STOP triggered (Ctrl+Alt+X)
+2025-12-24 20:52:17,518 - INFO - Assistant stopping safely
+2025-12-24 20:52:17,693 - INFO - Voice input received: again not bad
+2025-12-24 20:52:18,212 - INFO - Parsing intent from text: again not bad
+2025-12-24 20:52:18,212 - INFO - Intent parsed: {'action': 'unknown', 'raw_text': 'again not bad'}
+2025-12-24 20:52:18,212 - INFO - Permission check: action=unknown, decision=deny
+2025-12-24 20:52:18,212 - INFO - Action denied: unknown
+2025-12-24 20:52:19,212 - INFO - Assistant stopped
+2025-12-24 21:12:40,801 - INFO - IntentParser initialized
+2025-12-24 21:14:56,108 - INFO - WhisperVoiceListener initialized (offline)
+2025-12-24 21:14:56,108 - INFO - ConfirmationEngine initialized
+2025-12-24 21:14:56,109 - INFO - Permission policies loaded
+2025-12-24 21:14:56,109 - INFO - Assistant initialized
+2025-12-24 21:14:56,202 - INFO - Emergency hotkey registered: Ctrl+Alt+X
+2025-12-24 21:14:56,202 - INFO - Assistant started (headless mode)
+2025-12-24 21:18:36,631 - INFO - IntentParser initialized
+2025-12-24 21:18:37,582 - INFO - WhisperVoiceListener initialized (offline)
+2025-12-24 21:18:37,582 - INFO - ConfirmationEngine initialized
+2025-12-24 21:18:37,583 - INFO - Permission policies loaded
+2025-12-24 21:18:37,583 - INFO - Assistant initialized
+2025-12-24 21:18:37,684 - INFO - Emergency hotkey registered: Ctrl+Alt+X
+2025-12-24 21:18:37,684 - INFO - Assistant started (headless mode)
+2025-12-24 21:18:37,684 - INFO - Listening (Whisper)… speak now
+2025-12-24 21:18:43,333 - INFO - Listening (Whisper)… speak now
+2025-12-24 21:18:49,080 - INFO - Listening (Whisper)… speak now
+2025-12-24 21:18:53,818 - INFO - EMERGENCY STOP triggered (Ctrl+Alt+X)
+2025-12-24 21:18:53,818 - INFO - Assistant stopping safely
+2025-12-24 21:18:54,384 - INFO - Assistant stopped
